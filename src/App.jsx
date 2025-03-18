@@ -4,17 +4,17 @@ import "./App.css";
 function App() {
   const [data, setData] = useState([
     {
-      img: "/public/imgs/imgs2.png",
+      img: "/imgs/imgs2.png",
       titel: "Burger",
       piric: 3.22,
     },
     {
-      img: "/public/imgs/gamburger2.png",
+      img: "/imgs/gamburger2.png",
       titel: "Gamburger",
       piric: 4.39,
     },
     {
-      img: "/public/imgs/gamburger3.png",
+      img: "/imgs/gamburger3.png",
       titel: "Gamburger",
       piric: 4.12,
     },
@@ -30,7 +30,7 @@ function App() {
             <div className="container">
               <div className="logo">
                 <div className="logo_box">
-                  <img src="/public/imgs/logo 1.png" alt="Logo" />
+                  <img src="/imgs/logo 1.png" alt="Logo" />
                   <ul>
                     <li>
                       <a href="">Home</a>
@@ -42,7 +42,7 @@ function App() {
                   <div className="search">
                     <i className="fa-solid fa-magnifying-glass"></i>
                     <div className="shoping">
-                      <span>2</span>
+                      <span>1</span>
                       <i className="fa-solid fa-cart-shopping"></i>
                     </div>
                   </div>
